@@ -1,14 +1,12 @@
-"""
-generate_library.py
-Scans a flat music folder (MP3 + M4A), extracts cover art as separate JPG files,
-and produces a lean library.json for the UA Music web app.
-
-Defaults:
-  Music folder : C:\Work\Project\Personal\UA Music\output\music
-  Covers folder: C:\Work\Project\Personal\UA Music\output\covers
-  Output JSON  : C:\Work\Project\Personal\UA Music\output\library.json
-  R2 base URL  : https://pub-24dbba953b5b4b12a9fdbd968454f295.r2.dev
-"""
+# generate_library.py
+# Scans a flat music folder (MP3 + M4A), extracts cover art as separate JPG files,
+# and produces a lean library.json for the UA Music web app.
+#
+# Defaults:
+#   Music folder : C:/Work/Project/Personal/UA Music/output/music
+#   Covers folder: C:/Work/Project/Personal/UA Music/output/covers
+#   Output JSON  : C:/Work/Project/Personal/UA Music/output/library.json
+#   R2 base URL  : https://pub-24dbba953b5b4b12a9fdbd968454f295.r2.dev
 
 import os
 import json
